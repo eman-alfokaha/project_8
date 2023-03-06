@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Project8ModelStoreContainer" CdmEntityContainer="Project8Entities">
+    <EntitySetMapping Name="Colleges">
+      <EntityTypeMapping TypeName="Project8Model.College">
+        <MappingFragment StoreEntitySet="Colleges">
+          <ScalarProperty Name="College_Id" ColumnName="College_Id" />
+          <ScalarProperty Name="College_Name" ColumnName="College_Name" />
+          <ScalarProperty Name="College_Description" ColumnName="College_Description" />
+          <ScalarProperty Name="College_Image" ColumnName="College_Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
